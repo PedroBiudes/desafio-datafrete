@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Import extends Model
+{
+    protected $fillable = [
+        'filename',
+        'status',
+        'total_rows',
+        'processed_rows',
+        'failed_rows',
+    ];
+}
